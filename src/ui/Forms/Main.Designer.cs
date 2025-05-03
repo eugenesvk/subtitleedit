@@ -5758,7 +5758,7 @@ namespace Nikse.SubtitleEdit.Forms
             this.buttonPrevious.Name = "buttonPrevious";
             this.buttonPrevious.Size = new System.Drawing.Size(72, 23);
             this.buttonPrevious.TabIndex = 2;
-            this.buttonPrevious.Text = "< Prev";
+            this.buttonPrevious.Text = "⮜Prev";
             this.buttonPrevious.UseVisualStyleBackColor = true;
             this.buttonPrevious.Click += new System.EventHandler(this.ButtonPreviousClick);
             // 
@@ -5770,7 +5770,7 @@ namespace Nikse.SubtitleEdit.Forms
             this.buttonNext.Name = "buttonNext";
             this.buttonNext.Size = new System.Drawing.Size(72, 23);
             this.buttonNext.TabIndex = 3;
-            this.buttonNext.Text = "Next >";
+            this.buttonNext.Text = "Next⮞";
             this.buttonNext.UseVisualStyleBackColor = true;
             this.buttonNext.Click += new System.EventHandler(this.ButtonNextClick);
             // 
