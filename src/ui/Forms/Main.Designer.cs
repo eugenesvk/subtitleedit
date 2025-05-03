@@ -3634,7 +3634,7 @@ namespace Nikse.SubtitleEdit.Forms
             this.tabControlModes.Margin = new System.Windows.Forms.Padding(0);
             this.tabControlModes.Name = "tabControlModes";
             this.tabControlModes.SelectedIndex = 0;
-            this.tabControlModes.Size = new System.Drawing.Size(382, 182);
+            this.tabControlModes.Size = new System.Drawing.Size(382, 270);
             this.tabControlModes.TabIndex = 0;
             this.tabControlModes.SelectedIndexChanged += new System.EventHandler(this.TabControlModes_SelectedIndexChanged);
             // 
@@ -3651,7 +3651,7 @@ namespace Nikse.SubtitleEdit.Forms
             this.tabPageTranslate.Location = new System.Drawing.Point(4, 22);
             this.tabPageTranslate.Margin = new System.Windows.Forms.Padding(0);
             this.tabPageTranslate.Name = "tabPageTranslate";
-            this.tabPageTranslate.Size = new System.Drawing.Size(374, 156);
+            this.tabPageTranslate.Size = new System.Drawing.Size(374, 244);
             this.tabPageTranslate.TabIndex = 0;
             this.tabPageTranslate.Text = "Translate";
             // 
@@ -3958,7 +3958,7 @@ namespace Nikse.SubtitleEdit.Forms
             this.tabPageCreate.Location = new System.Drawing.Point(4, 22);
             this.tabPageCreate.Name = "tabPageCreate";
             this.tabPageCreate.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPageCreate.Size = new System.Drawing.Size(374, 156);
+            this.tabPageCreate.Size = new System.Drawing.Size(374, 244);
             this.tabPageCreate.TabIndex = 1;
             this.tabPageCreate.Text = "Create";
             this.tabPageCreate.UseVisualStyleBackColor = true;
@@ -4258,7 +4258,7 @@ namespace Nikse.SubtitleEdit.Forms
             this.tabPageAdjust.Controls.Add(this.buttonAdjustPlayBefore);
             this.tabPageAdjust.Location = new System.Drawing.Point(4, 22);
             this.tabPageAdjust.Name = "tabPageAdjust";
-            this.tabPageAdjust.Size = new System.Drawing.Size(374, 156);
+            this.tabPageAdjust.Size = new System.Drawing.Size(374, 244);
             this.tabPageAdjust.TabIndex = 2;
             this.tabPageAdjust.Text = "Adjust";
             this.tabPageAdjust.UseVisualStyleBackColor = true;
