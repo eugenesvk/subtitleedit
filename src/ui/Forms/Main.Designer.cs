@@ -3381,7 +3381,7 @@ namespace Nikse.SubtitleEdit.Forms
             this.audioVisualizer.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(155)))), ((int)(((byte)(155)))));
             this.audioVisualizer.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(18)))));
             this.audioVisualizer.InsertAtVideoPositionShortcut = System.Windows.Forms.Keys.Insert;
-            this.audioVisualizer.Location = new System.Drawing.Point(382, 23);
+            this.audioVisualizer.Location = new System.Drawing.Point(382, 22);
             this.audioVisualizer.Margin = new System.Windows.Forms.Padding(0);
             this.audioVisualizer.MouseWheelScrollUpIsForward = true;
             this.audioVisualizer.Move100MsLeft = System.Windows.Forms.Keys.None;
@@ -3396,7 +3396,7 @@ namespace Nikse.SubtitleEdit.Forms
             this.audioVisualizer.ShowGridLines = true;
             this.audioVisualizer.ShowSpectrogram = false;
             this.audioVisualizer.ShowWaveform = true;
-            this.audioVisualizer.Size = new System.Drawing.Size(592, 229);
+            this.audioVisualizer.Size = new System.Drawing.Size(592, 155);
             this.audioVisualizer.SpectrogramAlpha = 1F;
             this.audioVisualizer.StartPositionSeconds = 0D;
             this.audioVisualizer.TabIndex = 6;
@@ -3462,10 +3462,11 @@ namespace Nikse.SubtitleEdit.Forms
             this.trackBarWaveformPosition.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.trackBarWaveformPosition.AutoSize = false;
-            this.trackBarWaveformPosition.Location = new System.Drawing.Point(596, 257);
+            this.trackBarWaveformPosition.Location = new System.Drawing.Point(592, 178);
+            this.trackBarWaveformPosition.Margin = new System.Windows.Forms.Padding(0);
             this.trackBarWaveformPosition.Maximum = 1000;
             this.trackBarWaveformPosition.Name = "trackBarWaveformPosition";
-            this.trackBarWaveformPosition.Size = new System.Drawing.Size(374, 20);
+            this.trackBarWaveformPosition.Size = new System.Drawing.Size(380, 20);
             this.trackBarWaveformPosition.TabIndex = 11;
             this.trackBarWaveformPosition.TickStyle = System.Windows.Forms.TickStyle.None;
             this.trackBarWaveformPosition.ValueChanged += new System.EventHandler(this.TrackBarWaveformPositionValueChanged);
@@ -3475,7 +3476,8 @@ namespace Nikse.SubtitleEdit.Forms
             // 
             this.panelWaveformControls.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.panelWaveformControls.Controls.Add(this.toolStripWaveControls);
-            this.panelWaveformControls.Location = new System.Drawing.Point(382, 253);
+            this.panelWaveformControls.Location = new System.Drawing.Point(380, 177);
+            this.panelWaveformControls.Margin = new System.Windows.Forms.Padding(0);
             this.panelWaveformControls.Name = "panelWaveformControls";
             this.panelWaveformControls.Size = new System.Drawing.Size(212, 30);
             this.panelWaveformControls.TabIndex = 10;
@@ -3885,7 +3887,7 @@ namespace Nikse.SubtitleEdit.Forms
             // buttonPlayCurrent
             // 
             this.buttonPlayCurrent.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonPlayCurrent.Location = new System.Drawing.Point(291, 27);
+            this.buttonPlayCurrent.Location = new System.Drawing.Point(289, 27);
             this.buttonPlayCurrent.MaximumSize = new System.Drawing.Size(94, 26);
             this.buttonPlayCurrent.Name = "buttonPlayCurrent";
             this.buttonPlayCurrent.Size = new System.Drawing.Size(84, 23);
@@ -3897,7 +3899,7 @@ namespace Nikse.SubtitleEdit.Forms
             // buttonPlayNext
             // 
             this.buttonPlayNext.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonPlayNext.Location = new System.Drawing.Point(291, 1);
+            this.buttonPlayNext.Location = new System.Drawing.Point(289, 1);
             this.buttonPlayNext.MaximumSize = new System.Drawing.Size(94, 26);
             this.buttonPlayNext.Name = "buttonPlayNext";
             this.buttonPlayNext.Size = new System.Drawing.Size(84, 23);
