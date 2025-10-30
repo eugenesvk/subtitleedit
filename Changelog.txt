@@ -1,5 +1,8 @@
 ﻿Subtitle Edit Changelog
 
+4.0.14dpi (28th October 2025)
+  - applied DPI fixes
+
 4.0.14 (28th October 2025)
 * NEW
    * Add Armenian translation - thx ArsenTech
