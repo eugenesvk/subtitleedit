@@ -4017,6 +4017,8 @@ namespace Nikse.SubtitleEdit.Forms
             this.labelCreateF12.AutoSize = true;
             this.labelCreateF12.ForeColor = System.Drawing.Color.Gray;
             this.labelCreateF12.Location = new System.Drawing.Point(188, 114);
+            this.labelCreateF12.MaximumSize = new System.Drawing.Size(28, 16);
+            this.labelCreateF12.MinimumSize = new System.Drawing.Size(25, 13);
             this.labelCreateF12.Name = "labelCreateF12";
             this.labelCreateF12.Size = new System.Drawing.Size(25, 13);
             this.labelCreateF12.TabIndex = 65;
@@ -4027,6 +4029,8 @@ namespace Nikse.SubtitleEdit.Forms
             this.labelCreateF11.AutoSize = true;
             this.labelCreateF11.ForeColor = System.Drawing.Color.Gray;
             this.labelCreateF11.Location = new System.Drawing.Point(188, 88);
+            this.labelCreateF11.MaximumSize = new System.Drawing.Size(28, 16);
+            this.labelCreateF11.MinimumSize = new System.Drawing.Size(25, 13);
             this.labelCreateF11.Name = "labelCreateF11";
             this.labelCreateF11.Size = new System.Drawing.Size(25, 13);
             this.labelCreateF11.TabIndex = 64;
@@ -4037,6 +4041,8 @@ namespace Nikse.SubtitleEdit.Forms
             this.labelCreateF10.AutoSize = true;
             this.labelCreateF10.ForeColor = System.Drawing.Color.Gray;
             this.labelCreateF10.Location = new System.Drawing.Point(188, 36);
+            this.labelCreateF10.MaximumSize = new System.Drawing.Size(28, 16);
+            this.labelCreateF10.MinimumSize = new System.Drawing.Size(25, 13);
             this.labelCreateF10.Name = "labelCreateF10";
             this.labelCreateF10.Size = new System.Drawing.Size(25, 13);
             this.labelCreateF10.TabIndex = 63;
@@ -4047,8 +4053,10 @@ namespace Nikse.SubtitleEdit.Forms
             this.labelCreateF9.AutoSize = true;
             this.labelCreateF9.ForeColor = System.Drawing.Color.Gray;
             this.labelCreateF9.Location = new System.Drawing.Point(188, 10);
+            this.labelCreateF9.MaximumSize = new System.Drawing.Size(28, 16);
+            this.labelCreateF9.MinimumSize = new System.Drawing.Size(25, 13);
             this.labelCreateF9.Name = "labelCreateF9";
-            this.labelCreateF9.Size = new System.Drawing.Size(19, 13);
+            this.labelCreateF9.Size = new System.Drawing.Size(25, 13);
             this.labelCreateF9.TabIndex = 62;
             this.labelCreateF9.Text = "F9";
             // 
@@ -4300,6 +4308,7 @@ namespace Nikse.SubtitleEdit.Forms
             this.labelAdjustF12.Location = new System.Drawing.Point(188, 88);
             this.labelAdjustF12.Margin = new System.Windows.Forms.Padding(0, 0, 3, 0);
             this.labelAdjustF12.MaximumSize = new System.Drawing.Size(28, 15);
+            this.labelAdjustF12.MinimumSize = new System.Drawing.Size(25, 13);
             this.labelAdjustF12.Name = "labelAdjustF12";
             this.labelAdjustF12.Size = new System.Drawing.Size(25, 13);
             this.labelAdjustF12.TabIndex = 64;
@@ -4313,6 +4322,7 @@ namespace Nikse.SubtitleEdit.Forms
             this.labelAdjustF11.Location = new System.Drawing.Point(188, 62);
             this.labelAdjustF11.Margin = new System.Windows.Forms.Padding(0, 0, 3, 0);
             this.labelAdjustF11.MaximumSize = new System.Drawing.Size(28, 15);
+            this.labelAdjustF11.MinimumSize = new System.Drawing.Size(25, 13);
             this.labelAdjustF11.Name = "labelAdjustF11";
             this.labelAdjustF11.Size = new System.Drawing.Size(25, 13);
             this.labelAdjustF11.TabIndex = 63;
@@ -4326,6 +4336,7 @@ namespace Nikse.SubtitleEdit.Forms
             this.labelAdjustF10.Location = new System.Drawing.Point(188, 36);
             this.labelAdjustF10.Margin = new System.Windows.Forms.Padding(0, 0, 3, 0);
             this.labelAdjustF10.MaximumSize = new System.Drawing.Size(28, 15);
+            this.labelAdjustF10.MinimumSize = new System.Drawing.Size(25, 13);
             this.labelAdjustF10.Name = "labelAdjustF10";
             this.labelAdjustF10.Size = new System.Drawing.Size(25, 13);
             this.labelAdjustF10.TabIndex = 62;
@@ -4339,8 +4350,9 @@ namespace Nikse.SubtitleEdit.Forms
             this.labelAdjustF9.Location = new System.Drawing.Point(188, 10);
             this.labelAdjustF9.Margin = new System.Windows.Forms.Padding(0, 0, 3, 0);
             this.labelAdjustF9.MaximumSize = new System.Drawing.Size(28, 15);
+            this.labelAdjustF9.MinimumSize = new System.Drawing.Size(25, 13);
             this.labelAdjustF9.Name = "labelAdjustF9";
-            this.labelAdjustF9.Size = new System.Drawing.Size(19, 13);
+            this.labelAdjustF9.Size = new System.Drawing.Size(25, 13);
             this.labelAdjustF9.TabIndex = 61;
             this.labelAdjustF9.Text = "F9";
             this.labelAdjustF9.Click += new System.EventHandler(this.labelAdjustF9_Click);
