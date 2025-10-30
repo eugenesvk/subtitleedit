@@ -5,8 +5,8 @@ namespace Nikse.SubtitleEdit.Core.Common
 {
     public class TextEncoding : IEquatable<Encoding>, IEquatable<string>
     {
-        public static readonly string Utf8WithBom = "UTF-8 with BOM";
-        public static readonly string Utf8WithoutBom = "UTF-8 without BOM";
+        public static readonly string Utf8WithBom = "UTF8 +BOM";
+        public static readonly string Utf8WithoutBom = "UTF8 −BOM";
         public static readonly string Source = "Source";
         public static readonly int Utf8WithBomIndex = 0;
         public static readonly int Utf8WithoutBomIndex = 1;
