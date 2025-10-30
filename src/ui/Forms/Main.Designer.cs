@@ -3815,7 +3815,6 @@ namespace Nikse.SubtitleEdit.Forms
             this.checkBoxAutoContinue.Size = new System.Drawing.Size(15, 14);
             this.checkBoxAutoContinue.TabIndex = 0;
             this.checkBoxAutoContinue.UseVisualStyleBackColor = true;
-            this.checkBoxAutoContinue.CheckedChanged += new System.EventHandler(this.checkBoxAutoContinue_CheckedChanged);
             // 
             // buttonStop
             // 
@@ -3898,7 +3897,6 @@ namespace Nikse.SubtitleEdit.Forms
             this.checkBoxAutoRepeatOn.Size = new System.Drawing.Size(15, 14);
             this.checkBoxAutoRepeatOn.TabIndex = 0;
             this.checkBoxAutoRepeatOn.UseVisualStyleBackColor = true;
-            this.checkBoxAutoRepeatOn.CheckedChanged += new System.EventHandler(this.checkBoxAutoRepeatOn_CheckedChanged);
             // 
             // buttonPlayPrevious
             // 
@@ -4262,7 +4260,6 @@ namespace Nikse.SubtitleEdit.Forms
             this.tabPageAdjust.TabIndex = 2;
             this.tabPageAdjust.Text = "Adjust";
             this.tabPageAdjust.UseVisualStyleBackColor = true;
-            this.tabPageAdjust.Click += new System.EventHandler(this.tabPageAdjust_Click);
             // 
             // timeUpDownVideoPositionAdjust
             // 
@@ -4357,7 +4354,6 @@ namespace Nikse.SubtitleEdit.Forms
             this.labelAdjustF12.Size = new System.Drawing.Size(25, 13);
             this.labelAdjustF12.TabIndex = 64;
             this.labelAdjustF12.Text = "F12";
-            this.labelAdjustF12.Click += new System.EventHandler(this.labelAdjustF12_Click);
             // 
             // labelAdjustF11
             // 
@@ -4371,7 +4367,6 @@ namespace Nikse.SubtitleEdit.Forms
             this.labelAdjustF11.Size = new System.Drawing.Size(25, 13);
             this.labelAdjustF11.TabIndex = 63;
             this.labelAdjustF11.Text = "F11";
-            this.labelAdjustF11.Click += new System.EventHandler(this.labelAdjustF11_Click);
             // 
             // labelAdjustF10
             // 
@@ -4385,7 +4380,6 @@ namespace Nikse.SubtitleEdit.Forms
             this.labelAdjustF10.Size = new System.Drawing.Size(25, 13);
             this.labelAdjustF10.TabIndex = 62;
             this.labelAdjustF10.Text = "F10";
-            this.labelAdjustF10.Click += new System.EventHandler(this.labelAdjustF10_Click);
             // 
             // labelAdjustF9
             // 
@@ -4399,7 +4393,6 @@ namespace Nikse.SubtitleEdit.Forms
             this.labelAdjustF9.Size = new System.Drawing.Size(25, 13);
             this.labelAdjustF9.TabIndex = 61;
             this.labelAdjustF9.Text = "F9";
-            this.labelAdjustF9.Click += new System.EventHandler(this.labelAdjustF9_Click);
             // 
             // buttonAdjustSecForward2
             // 
